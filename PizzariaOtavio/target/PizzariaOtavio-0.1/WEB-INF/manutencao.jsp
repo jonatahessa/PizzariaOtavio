@@ -146,13 +146,13 @@
                 </div>
 
                 <div id="precoeditar" class="form-group camposform">
-                    <label for="preco">Preço Comum</label>
-                    <input class="form-control inputseditar" type="text" name="preco"/>
+                    <label for="precocomumeditar">Preço Comum</label>
+                    <input class="form-control inputseditar" type="text" name="precocomumeditar"/>
                 </div>
 
                 <div id="precoeditarbroto" class="form-group camposform">
-                    <label for="precobroto">Preço Broto</label>
-                    <input class="form-control inputseditar" type="text" name="precobroto"/>
+                    <label for="precobrotoeditar">Preço Broto</label>
+                    <input class="form-control inputseditar" type="text" name="precobrotoeditar"/>
                 </div>
                 
                 <div id="tipoeditar" class="form-group camposform">
