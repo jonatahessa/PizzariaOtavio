@@ -36,7 +36,8 @@ section {
 }
 
 #menu ul h1 span {
-    font-family: Tahoma;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
 }
 
 #menu ul li {
@@ -49,6 +50,8 @@ section {
     text-decoration: none;
     padding: 1.5% 4%;
     float: right;
+    font-size: 100%;
+    font-weight: bold;
     transition: 1s;
     border: none;
 }
@@ -246,49 +249,7 @@ section {
     display: block;
 }
 
-#abresalgadas {
-    border: none;
-    background: transparent;
-    font-family: 'Pacifico', cursive;
-    font-weight: bold;
-    color: #f72b2f;
-    transition: 1s;
-    width: 40%;
-    height: 60px;
-    font-size: 150%;
-    margin: auto;
-    left: 0;
-    right: 0;
-    display: block;
-    animation-name: esconder;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-in-out;
-    display: block;
-}
-
-#abredoces {
-    border: none;
-    background: transparent;
-    font-family: 'Pacifico', cursive;
-    font-weight: bold;
-    color: #f72b2f;
-    transition: 1s;
-    width: 40%;
-    height: 60px;
-    font-size: 150%;
-    margin: auto;
-    left: 0;
-    right: 0;
-    display: block;
-    animation-name: esconder;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-in-out;
-    display: block;
-}
-
-#abrebebidas {
+.buttonsabrir {
     border: none;
     background: transparent;
     font-family: 'Pacifico', cursive;
@@ -323,12 +284,17 @@ section {
 }
 
 #descricao {
-    width: 60%;
+    width: 50%;
 }
 
-#precopizza {
+#precopizzacomum {
     width: 10%;
     text-align: center;
+}
+
+#precopizzabroto {
+  width: 10%;
+  text-align: center;
 }
 
 @keyframes esconder {
@@ -356,6 +322,7 @@ section {
 
 #sessaolocalizacao p {
     font-weight: bold;
+    font-size: 120%;
 }
 
 #sessaocontato {

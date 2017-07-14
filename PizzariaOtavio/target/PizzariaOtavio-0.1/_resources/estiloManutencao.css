@@ -147,6 +147,10 @@ button {
   margin: auto;
 }
 
+#codigoeditar {
+    display: none;
+}
+
 #descricao {
   width: 80%;
 }

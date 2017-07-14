@@ -34,8 +34,8 @@ public class DaoProduto {
                 produto.setCodigo(result.getInt("id"));
                 produto.setNome(result.getString("nome"));
                 produto.setDescricao(result.getString("descricao"));
-                produto.setPrecoComum(result.getString("precoComum"));
-                produto.setPrecoBroto(result.getString("precoBroto"));
+                produto.setPrecoComum(result.getString("valorComum"));
+                produto.setPrecoBroto(result.getString("valorBroto"));
                 produto.setAtivo(result.getString("ativo"));
                 produto.setTipo(result.getString("tipo"));
                 listaProduto.add(produto);
@@ -88,7 +88,7 @@ public class DaoProduto {
     public static void inserir(Produto pizza)
             throws SQLException, Exception {
 
-        String sql = "INSERT INTO Produtos (nome, descricao, precoComum, precoBroto, ativo, tipo) "
+        String sql = "INSERT INTO Produtos (nome, descricao, valorComum, valorBroto, ativo, tipo) "
                 + "VALUES (?, ?, ?, ?, ?, ?)";
         Connection connection = null;
         PreparedStatement statement = null;
@@ -118,7 +118,7 @@ public class DaoProduto {
 
     public static void desativar(int id)
             throws SQLException, Exception {
-        String sql = "UPDATE Produtos SET ativo = ?"
+        String sql = "UPDATE Produtos SET ativo = ? "
                 + "WHERE id = ?; ";
         Connection connection = null;
         PreparedStatement statement = null;
@@ -141,7 +141,7 @@ public class DaoProduto {
 
     public static void ativar(int id)
             throws SQLException, Exception {
-        String sql = "UPDATE Produtos SET ativo = ?"
+        String sql = "UPDATE Produtos SET ativo = ? "
                 + "WHERE id = ?; ";
         Connection connection = null;
         PreparedStatement statement = null;
@@ -167,8 +167,8 @@ public class DaoProduto {
         String sql = "UPDATE Produtos "
                 + "SET nome = ?, "
                 + "descricao = ?, "
-                + "precoComum = ?, "
-                + "precoBroto = ?, "
+                + "valorComum = ?, "
+                + "valorBroto = ?, "
                 + "tipo = ? "
                 + "WHERE id = ?;";
 

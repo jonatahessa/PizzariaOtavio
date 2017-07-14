@@ -13,12 +13,12 @@
     <body>
         <section id="sessaoprincipal">
 
-          <div id="logout">
-            <form action="Logout" method="post">
-              <button type="submit" name="button"><span class="glyphicon glyphicon-off"></span> Sair</button>
-            </form>
+            <div id="logout">
+                <form action="Logout" method="post">
+                    <button type="submit" name="button"><span class="glyphicon glyphicon-off"></span> Sair</button>
+                </form>
 
-          </div>
+            </div>
             <div id="titulo">
                 <h1>Manutenção</h1>
             </div>
@@ -36,7 +36,7 @@
                         <th>Ingredientes</th>
                         <th>Preço Comum</th>
                         <th>Preço Broto</th>
-                        <th>Status</th>
+                        <th>Ativo</th>
                         <th>Tipo</th>
                         <th>Editar</th>
                         <th>Remover</th>
@@ -54,7 +54,8 @@
                                     <input type="hidden" name="codigo" value="${pizzas.codigo}"/>
                                     <input type="hidden" name="nome" value="${pizzas.nome}"/>
                                     <input type="hidden" name="descricao" value="${pizzas.descricao}"/>
-                                    <input type="hidden" name="preco" value="${pizzas.preco}"/>
+                                    <input type="hidden" name="preco" value="${pizzas.precoComum}"/>
+                                    <input type="hidden" name="preco" value="${pizzas.precoBroto}"/>
                                     <input type="hidden" name="tipo" value="${pizzas.tipo}"/>
                                     <button type="submit" class="btn btn-warning editar" name="botaoeditar">Editar</button>
                                 </form>
@@ -99,7 +100,7 @@
                     <label for="precoComum">Preço Comum</label>
                     <input class="form-control inputsnovo" type="text" name="precoComum"/>
                 </div>
-                
+
                 <div id="precobroto" class="form-group camposform">
                     <label for="precoBroto">Preço Broto</label>
                     <input class="form-control inputsnovo" type="text" name="precoBroto"/>
@@ -145,10 +146,15 @@
                 </div>
 
                 <div id="precoeditar" class="form-group camposform">
-                    <label for="preco">Preço</label>
+                    <label for="preco">Preço Comum</label>
                     <input class="form-control inputseditar" type="text" name="preco"/>
                 </div>
 
+                <div id="precoeditarbroto" class="form-group camposform">
+                    <label for="precobroto">Preço Broto</label>
+                    <input class="form-control inputseditar" type="text" name="precobroto"/>
+                </div>
+                
                 <div id="tipoeditar" class="form-group camposform">
                     <label for="tipo">Tipo</label>
                     <select id="selecteditar" class="form-control" name="tipo">

@@ -30,17 +30,17 @@ function abrirEditar(form) {
   for (var i = 0; i < inputs.length; i++) {
     inputs[i].value = form[i].value;
   }
-  if (form[4].value == 'COMUM') {
+  if (form[5].value == 'COMUM') {
     select.appendChild(optionComum);
     select.appendChild(optionDoce);
     select.appendChild(optionBebida);
 
-  } else if (form[4].value == 'DOCE') {
+  } else if (form[5].value == 'DOCE') {
     select.appendChild(optionDoce);
     select.appendChild(optionComum);
     select.appendChild(optionBebida);
 
-  } else if (form[4].value == 'BEBIDA') {
+  } else if (form[5].value == 'BEBIDA') {
     select.appendChild(optionBebida);
     select.appendChild(optionComum);
     select.appendChild(optionDoce);
