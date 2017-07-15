@@ -4,8 +4,8 @@ function main() {
   var fecharBebidas = [];
   var abrir = document.querySelector("#abresalgadas");
   var abrirDoces = document.querySelector("#abredoces");
-  var abrirBebidas = document.querySelector("#abrebebidas");
   var botaocardapio = document.querySelector("#buttoncardapio");
+  var promo = document.querySelector("#buttonpromocoes");
   var nossa = document.querySelector("#buttonnossacasa");
   var varhome = document.querySelector("#buttonhome");
   var localiza = document.querySelector("#buttonlocalizacao");
@@ -28,12 +28,12 @@ function main() {
 
   abrir.addEventListener("click", showSalgadas);
   abrirDoces.addEventListener("click", showDoces);
-  abrirBebidas.addEventListener("click", showBebidas);
   varhome.addEventListener("click", home);
   nossa.addEventListener("click", nossacasa);
   botaocardapio.addEventListener("click", cardapio);
   localiza.addEventListener("click", localizacao);
   contato.addEventListener("click", scrollcontato);
+  promo.addEventListener("click", scrollpromo);
 }
 
 function home() {
@@ -46,6 +46,10 @@ function nossacasa() {
 
 function cardapio() {
   document.querySelector("#sessaocardapio").scrollIntoView();
+}
+
+function scrollpromo() {
+  document.querySelector("#sessaopromocoes").scrollIntoView();
 }
 
 function localizacao() {
@@ -64,11 +68,6 @@ function showSalgadas() {
 function showDoces() {
   document.querySelector(".mostrardoces").style.display = "block";
   document.querySelector("#abredoces").style.display = "none";
-}
-
-function showBebidas() {
-  document.querySelector(".mostrarbebidas").style.display = "block";
-  document.querySelector("#abrebebidas").style.display = "none";
 }
 
 function hideSalgadas() {

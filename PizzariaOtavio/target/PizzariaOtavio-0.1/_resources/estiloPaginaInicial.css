@@ -21,18 +21,20 @@ section {
     background-color: #EDEDED;
     list-style: none;
     font: 100% Tahoma;
+    height: 75px;
     opacity: .9;
     position: fixed;
+    z-index: 150;
 }
 
 #menu ul h1 {
     position: fixed;
     float: left;
     margin-left: 2%;
-    margin-top: 1%;
+    margin-top: .5%;
     color: #272329;
     font-family: 'Marck Script', cursive;
-    font-size: 185%;
+    font-size: 120%;
 }
 
 #menu ul h1 span {
@@ -50,7 +52,7 @@ section {
     text-decoration: none;
     padding: 1.5% 4%;
     float: right;
-    font-size: 100%;
+    font-size: 80%;
     font-weight: bold;
     transition: 1s;
     border: none;
@@ -90,6 +92,11 @@ section {
     text-align: left;
 }
 
+#nossacasa h2 {
+  font-family: 'Hind', sans-serif;
+  color: #a6a0a0;
+}
+
 #nossacasa p:nth-of-type(1) {
     width: 100%;
     margin-right: 2%;
@@ -116,8 +123,8 @@ section {
 }
 
 #fachada img {
-    width: 100%;
-    max-width: 450px;
+    width: 90%;
+    max-width: 350px;
 }
 
 .mostrarsalgadas {
@@ -144,16 +151,15 @@ section {
     display: none;
 }
 
-.mostrarbebidas {
-    width: 100%;
-    height: auto;
-    position: static;
-    transition: 1s;
-    animation-name: exibir;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-in-out;
-    display: none;
+#mostrarbebidas {
+    text-align: center;
+    font-size: 150%;
+}
+
+#mostrarbebidas h4 {
+  color: #f72b2f;
+  font-family: 'Hind', sans-serif;
+  font-weight: bold;
 }
 
 @keyframes exibir {
@@ -174,12 +180,6 @@ section {
     color: #a69090;
 }
 
-.mostrarbebidas table {
-    width: 100%;
-    font-family: 'Hind', sans-serif;
-    color: #a69090;
-}
-
 .mostrarsalgadas table tr:nth-child(odd) {
     background-color: #ccc;
     color: black;
@@ -190,20 +190,11 @@ section {
     color: black;
 }
 
-.mostrarbebidas table tr:nth-child(odd) {
-    background-color: #ccc;
-    color: black;
-}
-
 .mostrarsalgadas table th {
     text-align: left;
 }
 
 .mostrardoces table th {
-    text-align: left;
-}
-
-.mostrarbebidas table th {
     text-align: left;
 }
 
@@ -222,20 +213,6 @@ section {
 }
 
 .mostrardoces button {
-    border: none;
-    background: transparent;
-    font-family: 'Pacifico', cursive;
-    font-weight: bold;
-    color: #f72b2f;
-    transition: 1s;
-    width: 40%;
-    height: 60px;
-    font-size: 150%;
-    margin: 0 auto;
-    display: block;
-}
-
-.mostrarbebidas button {
     border: none;
     background: transparent;
     font-family: 'Pacifico', cursive;
@@ -274,6 +251,35 @@ section {
     text-align: center;
 }
 
+.casadinhas {
+  border-color: #a69090;
+  border-width: 1px;
+  font-family: 'Hind', sans-serif;
+}
+
+.casadinhas {
+  font-weight: bold;
+  color: #8f8a8d;
+}
+
+.casadinhas h2 {
+  font-family: 'Kite One', sans-serif;
+  font-weight: bold;
+}
+
+.casadinhas p:nth-of-type(1) {
+  font-weight: bold;
+  color: #8f8a8d;
+  margin-top: 0;
+}
+
+.casadinhas p:nth-of-type(2) {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 2%;
+  color: #f72b2f;
+}
+
 #numeropizza {
     width: 5%;
 }
@@ -305,6 +311,19 @@ section {
 
 #sessaocardapio button:hover {
     color: #7f7676;
+}
+
+#sessaocardapio h2 {
+  font-family: Tahoma;
+  color: #a6a0a0;
+  font-size: 90%;
+}
+
+#sessaocardapio h3 {
+  font-family: Tahoma;
+  color: #a6a0a0;
+  font-size: 120%;
+  text-align: center;
 }
 
 #sessaodelivery {
