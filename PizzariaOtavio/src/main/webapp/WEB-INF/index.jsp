@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
         <script type="text/javascript" src="./_resources/domPaginaInicial.js"></script>
         <title>Pizzaria Otávio</title>
     </head>
@@ -37,7 +38,7 @@
                 <div id="fachada">
                     <img src="_imagens/logo.jpg">
                 </div>
-                <h2>SATISFAÇÃO GARANTIDA</h2>
+                <h3>SATISFAÇÃO GARANTIDA</h3>
                 <p>A pizza do Otávio Kalsbier é preparada desde 1991 com a melhor receita, utilizando ingredientes da melhor procedência, feita com muito amor e carinho para entregarmos as você a melhor pizza.</p>
                 <p>Por isso podemos garantir a sua total satisfação, caso contrário, trocamos a pizza ou devolvemos o seu dinheiro de volta.</p>
             </div>
@@ -45,10 +46,14 @@
             <div class="sessoes" id="sessaocardapio">
                 <h1 class="titulos">Cardápio</h1>
                 <hr/>
-                <h2>* Taxa de entrega a partir de R$ 2,00.</h2>
-                <h2>** Borda recheada com catupiry Tirolez R$ 5,00.</h2>
-                <h2>*** Pizzas meio a meio serão cobradas pelo maior valor.</h2>
-                <button id="abresalgadas" class="buttonsabrir" type="button" name="abresalgadas">Pizzas Salgadas</button>
+
+                <div id="info">
+                  <h2>* Taxa de entrega a partir de R$ 2,00.</h2>
+                  <h2>** Borda recheada com catupiry Tirolez R$ 5,00.</h2>
+                  <h2>*** Pizzas meio a meio serão cobradas pelo maior valor.</h2>
+                </div>
+
+                <button id="abresalgadas" class="buttonsabrir" type="button" name="abresalgadas">Abrir Pizzas Salgadas</button>
                 <div class="mostrarsalgadas">
                     <button class="buttonsfecharsalgadas" type="button" name="fecharcardapio">Fechar</button>
                     <table>
@@ -71,7 +76,7 @@
                 </div>
 
 
-                <button id="abredoces" class="buttonsabrir" type="button" name="abredoces">Pizzas Doces</button>
+                <button id="abredoces" class="buttonsabrir" type="button" name="abredoces">Abrir Pizzas Doces</button>
 
                 <div class="mostrardoces">
                     <button class="buttonsfechardoces" type="button" name="fecharcardapio">Fechar</button>

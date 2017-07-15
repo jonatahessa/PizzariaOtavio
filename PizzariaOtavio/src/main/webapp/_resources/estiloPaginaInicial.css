@@ -50,9 +50,10 @@ section {
     background-color: #EDEDED;
     color: #333;
     text-decoration: none;
-    padding: 1.5% 4%;
+    height: 100%;
     float: right;
-    font-size: 80%;
+    width: 10%;
+    font-size: 90%;
     font-weight: bold;
     transition: 1s;
     border: none;
@@ -79,7 +80,7 @@ section {
 }
 
 .titulos {
-    font-family: Tahoma;
+    font-family: 'Bitter', serif;
     font-weight: bold;
     color: #a6a0a0;
 }
@@ -92,7 +93,7 @@ section {
     text-align: left;
 }
 
-#nossacasa h2 {
+#nossacasa h3 {
   font-family: 'Hind', sans-serif;
   color: #a6a0a0;
 }
@@ -127,6 +128,10 @@ section {
     max-width: 350px;
 }
 
+#info {
+  margin-bottom: 10%;
+}
+
 .mostrarsalgadas {
     width: 100%;
     height: auto;
@@ -153,7 +158,8 @@ section {
 
 #mostrarbebidas {
     text-align: center;
-    font-size: 150%;
+    font-size: 120%;
+    margin-top: 10%;
 }
 
 #mostrarbebidas h4 {
@@ -233,12 +239,10 @@ section {
     font-weight: bold;
     color: #f72b2f;
     transition: 1s;
-    width: 40%;
-    height: 60px;
-    font-size: 150%;
+    width: 100%;
+    height: 100px;
+    font-size: 200%;
     margin: auto;
-    left: 0;
-    right: 0;
     display: block;
     animation-name: esconder;
     animation-duration: 3s;
@@ -252,19 +256,20 @@ section {
 }
 
 .casadinhas {
-  border-color: #a69090;
-  border-width: 1px;
+  border: solid 1px;
+  border-color: #8f8a8d;
+  width: 45%;
+  margin-left: 2%;
+  display: inline-block;
   font-family: 'Hind', sans-serif;
-}
-
-.casadinhas {
-  font-weight: bold;
-  color: #8f8a8d;
+  text-align: center;
+  margin-top: 2%;
 }
 
 .casadinhas h2 {
   font-family: 'Kite One', sans-serif;
   font-weight: bold;
+  color: #8f8a8d;
 }
 
 .casadinhas p:nth-of-type(1) {
@@ -324,6 +329,7 @@ section {
   color: #a6a0a0;
   font-size: 120%;
   text-align: center;
+  margin-top: 5%;
 }
 
 #sessaodelivery {
