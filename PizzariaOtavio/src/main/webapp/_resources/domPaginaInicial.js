@@ -73,11 +73,13 @@ function showDoces() {
 function hideSalgadas() {
   document.querySelector(".mostrarsalgadas").style.display = "none";
   document.querySelector("#abresalgadas").style.display = "block";
+  document.querySelector("#sessaocardapio").scrollIntoView();
 }
 
 function hideDoces() {
   document.querySelector(".mostrardoces").style.display = "none";
   document.querySelector("#abredoces").style.display = "block";
+  document.querySelector("#sessaocardapio").scrollIntoView();
 }
 
 function hideBebidas() {

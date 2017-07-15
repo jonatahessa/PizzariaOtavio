@@ -39,7 +39,7 @@
                     <img src="_imagens/logo.jpg">
                 </div>
                 <h3>SATISFAÇÃO GARANTIDA</h3>
-                <p>A pizza do Otávio Kalsbier é preparada desde 1991 com a melhor receita, utilizando ingredientes da melhor procedência, feita com muito amor e carinho para entregarmos as você a melhor pizza.</p>
+                <p>A pizza do Otávio Kalsbier é preparada desde 1991 com a melhor receita, utilizando os melhores ingredientes, feita com muito amor e carinho para entregarmos a você a melhor pizza.</p>
                 <p>Por isso podemos garantir a sua total satisfação, caso contrário, trocamos a pizza ou devolvemos o seu dinheiro de volta.</p>
             </div>
 
