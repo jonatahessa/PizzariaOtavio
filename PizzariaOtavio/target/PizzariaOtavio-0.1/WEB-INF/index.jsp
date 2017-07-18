@@ -5,6 +5,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="./_resources/estiloPaginaInicial.css">
+        <link rel="shortcut icon" href="./_imagens/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
