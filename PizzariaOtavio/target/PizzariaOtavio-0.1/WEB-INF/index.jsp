@@ -49,7 +49,7 @@
                 <hr/>
 
                 <div id="info">
-                  <h2>* Taxa de entrega a partir de R$ 2,00.</h2>
+                  <h2>* Taxa de entrega a partir de R$ 3,00.</h2>
                   <h2>** Borda recheada com catupiry Tirolez R$ 5,00.</h2>
                   <h2>*** Pizzas meio a meio serão cobradas pelo maior valor.</h2>
                 </div>
