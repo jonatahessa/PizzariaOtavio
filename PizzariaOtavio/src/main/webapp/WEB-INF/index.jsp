@@ -116,7 +116,7 @@
                 1 Calabresa<br/>
                 1 Portuguesa<br/>
                 1 Dolly 2 litros</p>
-                <p>R$ 72,00</p>
+                <p>R$ 74,00</p>
               </div>
 
               <div class="casadinhas">
@@ -125,7 +125,7 @@
                 1 Calabresa<br/>
                 1 Baiana<br/>
                 1 Dolly 2 litros</p>
-                <p>R$ 72,00</p>
+                <p>R$ 74,00</p>
               </div>
 
               <div class="casadinhas">
@@ -134,7 +134,7 @@
                 1 Marguerita<br/>
                 1 Baiana<br/>
                 1 Coca-Cola 2 litros</p>
-                <p>R$ 90,00</p>
+                <p>R$ 92,00</p>
               </div>
 
               <div class="casadinhas">
@@ -143,7 +143,7 @@
                 1 Catupiry<br/>
                 1 Calabresa<br/>
                 1 Dolly 2 litros</p>
-                <p>R$ 72,00</p>
+                <p>R$ 74,00</p>
               </div>
             </div>
 
