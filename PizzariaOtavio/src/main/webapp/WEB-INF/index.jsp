@@ -61,15 +61,11 @@
                         <tr>
                             <th id="saborpizza">Sabor</th>
                             <th id="descricao">Ingredientes</th>
-                            <th id="precopizzacomum">Preço Normal</th>
-                            <th id="precopizzabroto">Preço Brotinho</th>
                         </tr>
                         <c:forEach var="comuns" items="${salgadas}">
                             <tr>
                                 <td class="celulas">${comuns.nome}</td>
                                 <td>${comuns.descricao}</td>
-                                <td class="celulas">${comuns.precoComum}</td>
-                                <td class="celulas">${comuns.precoBroto}</td>
                             </tr>
                         </c:forEach>
                     </table>
@@ -85,16 +81,12 @@
                         <tr>
                             <th id="saborpizza">Sabor</th>
                             <th id="descricao">Ingredientes</th>
-                            <th id="precopizzacomum">Preço Normal</th>
-                            <th id="precopizzabroto">Preço Brotinho</th>
 
                         </tr>
                         <c:forEach var="doces" items="${pizzasdoces}">
                             <tr>
                                 <td class="celulas">${doces.nome}</td>
                                 <td>${doces.descricao}</td>
-                                <td class="celulas">${doces.precoComum}</td>
-                                <td class="celulas">${doces.precoBroto}</td>
                             </tr>
                         </c:forEach>
                     </table>
@@ -116,7 +108,7 @@
                 1 Calabresa<br/>
                 1 Portuguesa<br/>
                 1 Dolly 2 litros</p>
-                <p>R$ 76,00</p>
+                <p>R$ 78,00</p>
               </div>
 
               <div class="casadinhas">
@@ -125,7 +117,7 @@
                 1 Calabresa<br/>
                 1 Baiana<br/>
                 1 Dolly 2 litros</p>
-                <p>R$ 76,00</p>
+                <p>R$ 78,00</p>
               </div>
 
               <div class="casadinhas">
@@ -134,7 +126,7 @@
                 1 Marguerita<br/>
                 1 Baiana<br/>
                 1 Coca-Cola 2 litros</p>
-                <p>R$ 94,00</p>
+                <p>R$ 96,00</p>
               </div>
 
               <div class="casadinhas">
@@ -143,7 +135,7 @@
                 1 Catupiry<br/>
                 1 Calabresa<br/>
                 1 Dolly 2 litros</p>
-                <p>R$ 76,00</p>
+                <p>R$ 78,00</p>
               </div>
             </div>
 
